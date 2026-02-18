@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(where:*)",
+      "Bash(echo:*)",
+      "Bash(cmd.exe /c \"echo %PATH%\")",
+      "Bash(tr:*)",
+      "Bash(powershell.exe -Command \"Get-Item ''C:\\\\Users\\\\breno\\\\.local\\\\bin\\\\claude.exe'' -ErrorAction SilentlyContinue | Select-Object FullName, Length\")",
+      "Bash(powershell.exe -Command \"Get-Item ''C:\\\\Users\\\\breno\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\Claude.exe'' -ErrorAction SilentlyContinue | Select-Object FullName, Length\")",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}
